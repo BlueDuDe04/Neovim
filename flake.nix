@@ -24,7 +24,6 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
     flake-utils.url = "github:numtide/flake-utils";
-    flake-utils.inputs.nixpkgs.follows = "nixpkgs";
 
     ### Neovim ###
     Load_config.url = "path:./.";

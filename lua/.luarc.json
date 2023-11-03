@@ -1,0 +1,8 @@
+{
+    "workspace.library": [
+        "/nix/store/ykr2pmk4d1mw26l8sw4f43lbb8a9jwhn-vimplugin-neodev-master/types/stable",
+        "/nix/store/7kxaldfcymzjm2sw5si74gzb1nhbynz2-neovim-unwrapped-0.9.4/share/nvim/runtime/lua",
+        "/home/mason/git/Neovim/lua",
+        "${3rd}/luv/library"
+    ]
+}

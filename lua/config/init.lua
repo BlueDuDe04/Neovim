@@ -28,6 +28,11 @@ local function init()
     vim.o.softtabstop = 4
     vim.o.shiftwidth = 4
     vim.o.expandtab = true
+    vim.o.splitbelow = true
+    vim.o.splitright = true
+
+    vim.o.wrap = false
+    vim.o.scrolloff = 15
 
     vim.o.swapfile = false
     vim.o.backup = false

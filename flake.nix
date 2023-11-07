@@ -11,6 +11,7 @@
           (pkgs.vimUtils.buildVimPlugin { name = "config"; src = ./.; })
 
           nvim-treesitter.withAllGrammars
+          telescope-fzf-native-nvim
         ];
 
         lazy = with pkgs.vimPlugins; [];

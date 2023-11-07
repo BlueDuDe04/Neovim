@@ -18,6 +18,7 @@
 
         deps = with pkgs; [
           ripgrep
+          fd
         ];
       };
     }

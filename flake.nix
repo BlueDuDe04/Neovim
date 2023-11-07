@@ -7,7 +7,9 @@
       pkgs = (import ./nix/pkgs.nix) inputs system;
     in {
       packages.default = (import ./nix) pkgs {
-        load = with pkgs.vimPlugins; [
+       load = with pkgs.vimPlugins; [
+          (pkgs.vimUtils.buildVimPlugin { name = "config"; src = ./.; })
+
           nvim-treesitter.withAllGrammars
         ];
 
@@ -26,8 +28,6 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     ### Neovim ###
-    Load_config.url = "path:./.";
-    Load_config.flake = false;
 
     ##- Theme -##
     Load_tokyonight.url = "github:folke/tokyonight.nvim";

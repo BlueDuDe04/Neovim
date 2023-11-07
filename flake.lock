@@ -160,19 +160,6 @@
         "type": "github"
       }
     },
-    "Load_config": {
-      "flake": false,
-      "locked": {
-        "lastModified": 0,
-        "narHash": "sha256-RIUZtiZT6vGmpVI6q0yyMtdvYnbxPABGbXyOb8Jk+NU=",
-        "path": "./.",
-        "type": "path"
-      },
-      "original": {
-        "path": "./.",
-        "type": "path"
-      }
-    },
     "Load_dashboard-nvim": {
       "flake": false,
       "locked": {
@@ -635,7 +622,6 @@
         "Load_cmp-path": "Load_cmp-path",
         "Load_cmp_luasnip": "Load_cmp_luasnip",
         "Load_comment": "Load_comment",
-        "Load_config": "Load_config",
         "Load_dashboard-nvim": "Load_dashboard-nvim",
         "Load_friendly-snippets": "Load_friendly-snippets",
         "Load_gitsigns": "Load_gitsigns",

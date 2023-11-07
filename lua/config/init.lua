@@ -23,6 +23,7 @@ local function init()
     vim.o.nu = true
     vim.o.relativenumber = true
     vim.opt.fillchars:append { eob = " " }
+    vim.opt.conceallevel = 2
 
     vim.o.tabstop = 4
     vim.o.softtabstop = 4

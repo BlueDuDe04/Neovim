@@ -64,3 +64,18 @@ bind('n', '<leader>ps', function() vim.cmd.normal('i' .. vim.fn.system('cliphist
 bind('n', '<leader>pt', function() vim.cmd.normal('i' .. vim.fn.system('cliphist list | sed -n 3p | cliphist decode')) end)
 bind('n', '<leader>pn', function() vim.cmd.normal('i' .. vim.fn.system('cliphist list | sed -n 4p | cliphist decode')) end)
 bind("n", "<leader>pe", function() vim.cmd.normal('i' .. vim.fn.system('cliphist list | sed -n 5p | cliphist decode')) end)
+
+-- Harpoon
+local mark = require("harpoon.mark")
+local ui = require("harpoon.ui")
+
+bind("n", "<leader>ha", mark.add_file)
+bind("n", "<leader>hv", ui.toggle_quick_menu)
+
+bind("n", "<leader>hs", function() ui.nav_file(1) end)
+bind("n", "<leader>ht", function() ui.nav_file(2) end)
+bind("n", "<leader>hn", function() ui.nav_file(3) end)
+bind("n", "<leader>he", function() ui.nav_file(4) end)
+
+bind("n", "<leader>hm", function() ui.nav_next() end)
+bind("n", "<leader>hi", function() ui.nav_prev() end)

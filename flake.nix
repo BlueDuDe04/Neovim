@@ -119,6 +119,13 @@
     Load_gitsigns.url = "github:lewis6991/gitsigns.nvim";
     Load_gitsigns.flake = false;
 
+    ##- Neorg -##
+    Load_neorg.url = "github:nvim-neorg/neorg";
+    Load_neorg.flake = false;
+
+    Load_neorg-telescope.url = "github:nvim-neorg/neorg-telescope";
+    Load_neorg-telescope.flake = false;
+
     ##- Other -##
     Load_vim-sleuth.url = "github:tpope/vim-sleuth";
     Load_vim-sleuth.flake = false;
@@ -137,9 +144,6 @@
 
     Load_undotree.url = "github:mbbill/undotree";
     Load_undotree.flake = false;
-
-    Load_neorg.url = "github:nvim-neorg/neorg";
-    Load_neorg.flake = false;
 
     Load_vim-be-good.url = "github:ThePrimeagen/vim-be-good";
     Load_vim-be-good.flake = false;

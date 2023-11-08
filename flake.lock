@@ -288,6 +288,22 @@
         "type": "github"
       }
     },
+    "Load_neorg-telescope": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1698320305,
+        "narHash": "sha256-BOiIYZtRoKJP9BDmNf1doDQs09hRIVM2W8qw0sSDU18=",
+        "owner": "nvim-neorg",
+        "repo": "neorg-telescope",
+        "rev": "c3d25cc46145fba82c410245fb5bea66945eb1de",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-neorg",
+        "repo": "neorg-telescope",
+        "type": "github"
+      }
+    },
     "Load_neotest": {
       "flake": false,
       "locked": {
@@ -630,6 +646,7 @@
         "Load_luasnip": "Load_luasnip",
         "Load_neodev": "Load_neodev",
         "Load_neorg": "Load_neorg",
+        "Load_neorg-telescope": "Load_neorg-telescope",
         "Load_neotest": "Load_neotest",
         "Load_neotest-jest": "Load_neotest-jest",
         "Load_nvim-cmp": "Load_nvim-cmp",

@@ -45,6 +45,7 @@ cmp.setup {
     { name = 'nvim_lua' },
     { name = 'luasnip' },
     { name = 'path' },
+    { name = "neorg" },
   },
 }
 

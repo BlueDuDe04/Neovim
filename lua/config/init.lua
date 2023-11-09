@@ -30,6 +30,8 @@ local function init()
     vim.o.expandtab = true
     vim.o.splitbelow = true
     vim.o.splitright = true
+    vim.opt.foldmethod = "expr" -- use treesitter for folding
+    vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
     vim.o.wrap = false
     vim.o.scrolloff = 15

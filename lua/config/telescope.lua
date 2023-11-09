@@ -2,6 +2,7 @@
 -- See `:help telescope` and `:help telescope.setup()`
 local telescope = require('telescope')
 telescope.load_extension('fzf')
+telescope.load_extension('git_worktree')
 telescope.load_extension("refactoring")
 telescope.setup {
   defaults = {

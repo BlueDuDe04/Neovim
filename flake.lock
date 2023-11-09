@@ -192,6 +192,22 @@
         "type": "github"
       }
     },
+    "Load_git-worktree": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1699392961,
+        "narHash": "sha256-+RBoa1NS/W6XMhaIg3/Qw38VnL2imTQZ6bR88bZzV1c=",
+        "owner": "ThePrimeagen",
+        "repo": "git-worktree.nvim",
+        "rev": "f247308e68dab9f1133759b05d944569ad054546",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThePrimeagen",
+        "repo": "git-worktree.nvim",
+        "type": "github"
+      }
+    },
     "Load_gitsigns": {
       "flake": false,
       "locked": {
@@ -640,6 +656,7 @@
         "Load_comment": "Load_comment",
         "Load_dashboard-nvim": "Load_dashboard-nvim",
         "Load_friendly-snippets": "Load_friendly-snippets",
+        "Load_git-worktree": "Load_git-worktree",
         "Load_gitsigns": "Load_gitsigns",
         "Load_harpoon-nvim": "Load_harpoon-nvim",
         "Load_lualine": "Load_lualine",

@@ -119,6 +119,9 @@
     Load_gitsigns.url = "github:lewis6991/gitsigns.nvim";
     Load_gitsigns.flake = false;
 
+    Load_git-worktree.url = "github:ThePrimeagen/git-worktree.nvim";
+    Load_git-worktree.flake = false;
+
     ##- Neorg -##
     Load_neorg.url = "github:nvim-neorg/neorg";
     Load_neorg.flake = false;

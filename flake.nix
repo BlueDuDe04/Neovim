@@ -97,17 +97,12 @@
     Load_neotest.url = "github:nvim-neotest/neotest";
     Load_neotest.flake = false;
 
-    # FixCursorHold.url = "github:antoinemadec/FixCursorHold.nvim";
-    # FixCursorHold.flake = false;
-
     Load_neotest-jest.url = "github:nvim-neotest/neotest-jest";
     Load_neotest-jest.flake = false;
 
     ##- Telescope -##
     Load_telescope.url = "github:nvim-telescope/telescope.nvim";
     Load_telescope.flake = false;
-
-    # telescope-fzf-native-nvim
 
     ##- Git -##
     Load_vim-fugitive.url = "github:tpope/vim-fugitive";

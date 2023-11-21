@@ -19,6 +19,24 @@
         deps = with pkgs; [
           ripgrep
           fd
+
+          # LSPs
+          rust-analyzer
+          gopls
+          zls
+          lua-language-server
+          nodePackages.typescript-language-server
+          haskell-language-server
+          rnix-lsp
+          nil
+          python311Packages.python-lsp-server
+          glslls
+
+          # Formatters
+          rustfmt
+          gofumpt
+          golines
+          nixpkgs-fmt
         ];
       };
     }

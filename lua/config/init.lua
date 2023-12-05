@@ -23,13 +23,20 @@ local function init()
     vim.o.relativenumber = true
     vim.opt.fillchars:append { eob = " " }
     vim.opt.conceallevel = 2
+    vim.o.ignorecase = true
+    vim.o.termguicolors = true
 
     vim.o.tabstop = 4
     vim.o.softtabstop = 4
     vim.o.shiftwidth = 4
     vim.o.expandtab = true
+
+    vim.opt.virtualedit = "block"
+
+    vim.o.inccommand = "split"
     vim.o.splitbelow = true
     vim.o.splitright = true
+
     vim.opt.foldmethod = "expr" -- use treesitter for folding
     vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
     -- vim.opt.foldminlines = 10

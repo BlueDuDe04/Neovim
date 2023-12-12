@@ -227,15 +227,16 @@
     "Load_harpoon-nvim": {
       "flake": false,
       "locked": {
-        "lastModified": 1701464561,
-        "narHash": "sha256-No26U/bpSzc4GACxNr33aAZoebcWUHx4BNWFQXvlikY=",
+        "lastModified": 1702262518,
+        "narHash": "sha256-UAd+YMZoW/U8H5e+KarBY0kPeXOGx1wwbG7eoVG4zO0=",
         "owner": "ThePrimeagen",
         "repo": "harpoon",
-        "rev": "867e212ac153e793f95b316d1731f3ca1894625e",
+        "rev": "bb806acff3ceaec3b94bd3c92bc52945040004bf",
         "type": "github"
       },
       "original": {
         "owner": "ThePrimeagen",
+        "ref": "harpoon2",
         "repo": "harpoon",
         "type": "github"
       }

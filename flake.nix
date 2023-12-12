@@ -170,7 +170,7 @@
     Load_dashboard-nvim.url = "github:nvimdev/dashboard-nvim";
     Load_dashboard-nvim.flake = false;
 
-    Load_harpoon-nvim.url = "github:ThePrimeagen/harpoon";
+    Load_harpoon-nvim.url = "github:ThePrimeagen/harpoon/harpoon2";
     Load_harpoon-nvim.flake = false;
 
     Lazy_transparent-nvim.url = "github:xiyaowong/transparent.nvim";

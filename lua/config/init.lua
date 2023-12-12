@@ -19,6 +19,14 @@ local function init()
 
     require('config.keymap')
 
+    require('tokyonight').setup({
+        style = "night",
+        transparent = true,
+        styles = {
+            comments = { italic = false, bold = true }
+        },
+    })
+
     vim.o.nu = true
     vim.o.relativenumber = true
     vim.opt.fillchars:append { eob = " " }
@@ -60,17 +68,11 @@ local function init()
     vim.keymap.set("n", "<PageUp>", "<PageUp>zz")
     vim.keymap.set("n", "<PageDown>", "<PageDown>zz")
 
-    -- vim.keymap.set("n", "<leader>y", "\"+y")
-    -- vim.keymap.set("v", "<leader>y", "\"+y")
-
     vim.keymap.set("v", "<S-Down>", ":m '>+1<CR>gv=gv")
     vim.keymap.set("v", "<S-Up>", ":m '<-2<CR>gv=gv")
 
-    vim.keymap.set('n', '<Leader>F', '<cmd>:NvimTreeToggle<cr>')
-
-    -- vim.keymap.set('n', '<Leader>F', '<cmd>:NvimTreeFocus<cr>')
-
-    vim.keymap.set('n', '<Leader>W', '<cmd>:WhichKey<cr>')
+    vim.keymap.set('n', '<leader>T', '<cmd>:NvimTreeToggle<cr>')
+    vim.keymap.set('n', '<leader>F', '<cmd>:NvimTreeFocus<cr>')
 
     vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
 end

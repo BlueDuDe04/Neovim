@@ -152,9 +152,6 @@
     Load_nvim-tree-lua.url = "github:nvim-tree/nvim-tree.lua";
     Load_nvim-tree-lua.flake = false;
 
-    Load_which-key.url = "github:folke/which-key.nvim";
-    Load_which-key.flake = false;
-
     Load_lualine.url = "github:nvim-lualine/lualine.nvim";
     Load_lualine.flake = false;
 
@@ -175,8 +172,5 @@
 
     Load_harpoon-nvim.url = "github:ThePrimeagen/harpoon/harpoon2";
     Load_harpoon-nvim.flake = false;
-
-    Load_transparent-nvim.url = "github:xiyaowong/transparent.nvim";
-    Load_transparent-nvim.flake = false;
   };
 }

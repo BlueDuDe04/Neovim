@@ -513,22 +513,6 @@
         "type": "github"
       }
     },
-    "Load_transparent-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1699805216,
-        "narHash": "sha256-wT+7rmp08r0XYGp+MhjJX8dsFTar8+nf10CV9OdkOSk=",
-        "owner": "xiyaowong",
-        "repo": "transparent.nvim",
-        "rev": "fd35a46f4b7c1b244249266bdcb2da3814f01724",
-        "type": "github"
-      },
-      "original": {
-        "owner": "xiyaowong",
-        "repo": "transparent.nvim",
-        "type": "github"
-      }
-    },
     "Load_undotree": {
       "flake": false,
       "locked": {
@@ -609,22 +593,6 @@
         "type": "github"
       }
     },
-    "Load_which-key": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1697801635,
-        "narHash": "sha256-uvghPj/teWrRMm09Gh8iQ/LV2nYJw0lmoiZK6L4+1cY=",
-        "owner": "folke",
-        "repo": "which-key.nvim",
-        "rev": "4433e5ec9a507e5097571ed55c02ea9658fb268a",
-        "type": "github"
-      },
-      "original": {
-        "owner": "folke",
-        "repo": "which-key.nvim",
-        "type": "github"
-      }
-    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -693,13 +661,11 @@
         "Load_refactoring": "Load_refactoring",
         "Load_telescope": "Load_telescope",
         "Load_tokyonight": "Load_tokyonight",
-        "Load_transparent-nvim": "Load_transparent-nvim",
         "Load_undotree": "Load_undotree",
         "Load_vim-be-good": "Load_vim-be-good",
         "Load_vim-fugitive": "Load_vim-fugitive",
         "Load_vim-rhubarb": "Load_vim-rhubarb",
         "Load_vim-sleuth": "Load_vim-sleuth",
-        "Load_which-key": "Load_which-key",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       }

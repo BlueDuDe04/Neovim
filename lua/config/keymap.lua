@@ -37,6 +37,7 @@ bind('n', '<leader>fw', telescope.grep_string, { desc = '[F]ind current [W]ord' 
 bind('n', '<leader>fg', telescope.live_grep, { desc = '[F]ind by [G]rep' })
 bind('n', '<leader>fd', telescope.diagnostics, { desc = '[F]ind [D]iagnostics' })
 bind('n', '<leader>fr', telescope.resume, { desc = '[F]ind [R]esume' })
+bind('n', '<leader>fj', telescope.jumplist, { desc = '[F]ind previous [J]umps' })
 
 bind({ 'n', 'x' }, '<leader>rr', function() require('telescope').extensions.refactoring.refactors() end)
 

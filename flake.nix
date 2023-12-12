@@ -60,6 +60,9 @@
     Load_nvim-web-devicon.url = "github:nvim-tree/nvim-web-devicons";
     Load_nvim-web-devicon.flake = false;
 
+    Load_nvim-treesitter-textobjects.url = "github:nvim-treesitter/nvim-treesitter-textobjects";
+    Load_nvim-treesitter-textobjects.flake = false;
+
     ##- Langs -##
     Load_nvim-lspconfig.url = "github:neovim/nvim-lspconfig";
     Load_nvim-lspconfig.flake = false;

@@ -433,6 +433,22 @@
         "type": "github"
       }
     },
+    "Load_nvim-treesitter-textobjects": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701407849,
+        "narHash": "sha256-tu/+yVIgetOYSGg2A+vFgBxh99ndcILVESgyNGHkrs0=",
+        "owner": "nvim-treesitter",
+        "repo": "nvim-treesitter-textobjects",
+        "rev": "ec1c5bdb3d87ac971749fa6c7dbc2b14884f1f6a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvim-treesitter",
+        "repo": "nvim-treesitter-textobjects",
+        "type": "github"
+      }
+    },
     "Load_nvim-web-devicon": {
       "flake": false,
       "locked": {
@@ -672,6 +688,7 @@
         "Load_nvim-lint": "Load_nvim-lint",
         "Load_nvim-lspconfig": "Load_nvim-lspconfig",
         "Load_nvim-tree-lua": "Load_nvim-tree-lua",
+        "Load_nvim-treesitter-textobjects": "Load_nvim-treesitter-textobjects",
         "Load_nvim-web-devicon": "Load_nvim-web-devicon",
         "Load_plenary": "Load_plenary",
         "Load_refactoring": "Load_refactoring",

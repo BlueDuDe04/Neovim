@@ -1,53 +1,5 @@
 {
   "nodes": {
-    "Lazy_fidget": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1702155792,
-        "narHash": "sha256-bqbMKptpK3SGjKMO1fPongkUAkEXTL8eWPot4LGolJY=",
-        "owner": "j-hui",
-        "repo": "fidget.nvim",
-        "rev": "7dc62b9ce32ac0f21cfb510f243644ce28a39299",
-        "type": "github"
-      },
-      "original": {
-        "owner": "j-hui",
-        "repo": "fidget.nvim",
-        "type": "github"
-      }
-    },
-    "Lazy_kmonad-vim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1647812451,
-        "narHash": "sha256-7PKVOsb3jvuGEnP/LsrDr96wFSQMou2dgnV+hRaI444=",
-        "owner": "kmonad",
-        "repo": "kmonad-vim",
-        "rev": "37978445197ab00edeb5b731e9ca90c2b141723f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "kmonad",
-        "repo": "kmonad-vim",
-        "type": "github"
-      }
-    },
-    "Lazy_transparent-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1699805216,
-        "narHash": "sha256-wT+7rmp08r0XYGp+MhjJX8dsFTar8+nf10CV9OdkOSk=",
-        "owner": "xiyaowong",
-        "repo": "transparent.nvim",
-        "rev": "fd35a46f4b7c1b244249266bdcb2da3814f01724",
-        "type": "github"
-      },
-      "original": {
-        "owner": "xiyaowong",
-        "repo": "transparent.nvim",
-        "type": "github"
-      }
-    },
     "Load_cmp-buffer": {
       "flake": false,
       "locked": {
@@ -176,6 +128,22 @@
         "type": "github"
       }
     },
+    "Load_fidget": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702155792,
+        "narHash": "sha256-bqbMKptpK3SGjKMO1fPongkUAkEXTL8eWPot4LGolJY=",
+        "owner": "j-hui",
+        "repo": "fidget.nvim",
+        "rev": "7dc62b9ce32ac0f21cfb510f243644ce28a39299",
+        "type": "github"
+      },
+      "original": {
+        "owner": "j-hui",
+        "repo": "fidget.nvim",
+        "type": "github"
+      }
+    },
     "Load_friendly-snippets": {
       "flake": false,
       "locked": {
@@ -238,6 +206,22 @@
         "owner": "ThePrimeagen",
         "ref": "harpoon2",
         "repo": "harpoon",
+        "type": "github"
+      }
+    },
+    "Load_kmonad-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647812451,
+        "narHash": "sha256-7PKVOsb3jvuGEnP/LsrDr96wFSQMou2dgnV+hRaI444=",
+        "owner": "kmonad",
+        "repo": "kmonad-vim",
+        "rev": "37978445197ab00edeb5b731e9ca90c2b141723f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kmonad",
+        "repo": "kmonad-vim",
         "type": "github"
       }
     },
@@ -529,6 +513,22 @@
         "type": "github"
       }
     },
+    "Load_transparent-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1699805216,
+        "narHash": "sha256-wT+7rmp08r0XYGp+MhjJX8dsFTar8+nf10CV9OdkOSk=",
+        "owner": "xiyaowong",
+        "repo": "transparent.nvim",
+        "rev": "fd35a46f4b7c1b244249266bdcb2da3814f01724",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xiyaowong",
+        "repo": "transparent.nvim",
+        "type": "github"
+      }
+    },
     "Load_undotree": {
       "flake": false,
       "locked": {
@@ -661,9 +661,6 @@
     },
     "root": {
       "inputs": {
-        "Lazy_fidget": "Lazy_fidget",
-        "Lazy_kmonad-vim": "Lazy_kmonad-vim",
-        "Lazy_transparent-nvim": "Lazy_transparent-nvim",
         "Load_cmp-buffer": "Load_cmp-buffer",
         "Load_cmp-cmdline": "Load_cmp-cmdline",
         "Load_cmp-nvim-lsp": "Load_cmp-nvim-lsp",
@@ -672,10 +669,12 @@
         "Load_cmp_luasnip": "Load_cmp_luasnip",
         "Load_comment": "Load_comment",
         "Load_dashboard-nvim": "Load_dashboard-nvim",
+        "Load_fidget": "Load_fidget",
         "Load_friendly-snippets": "Load_friendly-snippets",
         "Load_git-worktree": "Load_git-worktree",
         "Load_gitsigns": "Load_gitsigns",
         "Load_harpoon-nvim": "Load_harpoon-nvim",
+        "Load_kmonad-vim": "Load_kmonad-vim",
         "Load_lualine": "Load_lualine",
         "Load_luasnip": "Load_luasnip",
         "Load_neodev": "Load_neodev",
@@ -694,6 +693,7 @@
         "Load_refactoring": "Load_refactoring",
         "Load_telescope": "Load_telescope",
         "Load_tokyonight": "Load_tokyonight",
+        "Load_transparent-nvim": "Load_transparent-nvim",
         "Load_undotree": "Load_undotree",
         "Load_vim-be-good": "Load_vim-be-good",
         "Load_vim-fugitive": "Load_vim-fugitive",

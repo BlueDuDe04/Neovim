@@ -67,8 +67,8 @@
     Load_nvim-lspconfig.url = "github:neovim/nvim-lspconfig";
     Load_nvim-lspconfig.flake = false;
 
-    Lazy_fidget.url = "github:j-hui/fidget.nvim";
-    Lazy_fidget.flake = false;
+    Load_fidget.url = "github:j-hui/fidget.nvim";
+    Load_fidget.flake = false;
 
     Load_neodev.url = "github:folke/neodev.nvim";
     Load_neodev.flake = false;
@@ -79,8 +79,8 @@
     Load_comment.url = "github:numToStr/Comment.nvim";
     Load_comment.flake = false;
 
-    Lazy_kmonad-vim.url = "github:kmonad/kmonad-vim";
-    Lazy_kmonad-vim.flake = false;
+    Load_kmonad-vim.url = "github:kmonad/kmonad-vim";
+    Load_kmonad-vim.flake = false;
 
     ##- Autocompletion -##
     Load_nvim-cmp.url = "github:hrsh7th/nvim-cmp";
@@ -176,7 +176,7 @@
     Load_harpoon-nvim.url = "github:ThePrimeagen/harpoon/harpoon2";
     Load_harpoon-nvim.flake = false;
 
-    Lazy_transparent-nvim.url = "github:xiyaowong/transparent.nvim";
-    Lazy_transparent-nvim.flake = false;
+    Load_transparent-nvim.url = "github:xiyaowong/transparent.nvim";
+    Load_transparent-nvim.flake = false;
   };
 }

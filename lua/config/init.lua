@@ -23,7 +23,22 @@ local function init()
         style = "night",
         transparent = true,
         styles = {
-            comments = { italic = false, bold = true }
+            comments = {
+                italic = false,
+                bold = true,
+            },
+            keywords = {
+                italic = true,
+                bold = false,
+            },
+            functions = {
+                italic = false,
+                bold = true,
+            },
+            variables = {
+                italic = false,
+                bold = false,
+            },
         },
     })
 

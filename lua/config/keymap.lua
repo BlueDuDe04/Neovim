@@ -90,3 +90,35 @@ bind("n", "<leader>6", function() harpoon:list():select(7) end)
 bind("n", "<leader>7", function() harpoon:list():select(8) end)
 bind("n", "<leader>8", function() harpoon:list():select(9) end)
 bind("n", "<leader>9", function() harpoon:list():select(10) end)
+
+-- Neorg
+local buf = nil
+local store_non_norg_buf = function()
+  if vim.filetype.match({buf = 0}) ~= "norg" then
+    buf = vim.fn.expand("%:p")
+  end
+end
+
+bind("n", "<leader>nn", function()
+  store_non_norg_buf()
+  vim.cmd.e("~/notes/index.norg")
+end)
+
+bind("n", "<leader>nt", function()
+  store_non_norg_buf()
+  vim.cmd "Neorg journal today"
+end)
+
+bind("n", "<leader>nT", function()
+  store_non_norg_buf()
+  vim.cmd "Neorg journal tomorrow"
+end)
+
+bind("n", "<leader>ny", function()
+  store_non_norg_buf()
+  vim.cmd "Neorg journal yesterday"
+end)
+
+bind("n", "<leader>ne", function()
+  if buf ~= nil and buf ~= "" then vim.cmd.e(buf) end
+end)

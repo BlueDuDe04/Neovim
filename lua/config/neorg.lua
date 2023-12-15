@@ -14,6 +14,11 @@ require("neorg").setup {
         },
       },
     },
+    ["core.journal"] = {
+      config = {
+        workspace = "notes"
+      },
+    },
     ["core.integrations.nvim-cmp"] = {},
     ["core.integrations.telescope"] = {},
   },

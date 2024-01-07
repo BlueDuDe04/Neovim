@@ -74,10 +74,30 @@ bind("n", "<leader>pe", function() vim.cmd.normal('a' .. vim.fn.system('cliphist
 local harpoon = require("harpoon")
 
 -- REQUIRED
-harpoon:setup()
+harpoon:setup({})
 -- REQUIRED
 
-bind("n", "<leader>a", function() harpoon:list():append() end)
+-- basic telescope configuration
+local conf = require("telescope.config").values
+local function toggle_telescope(harpoon_files)
+    local file_paths = {}
+    for _, item in ipairs(harpoon_files.items) do
+        table.insert(file_paths, item.value)
+    end
+
+    require("telescope.pickers").new({}, {
+        prompt_title = "Harpoon",
+        finder = require("telescope.finders").new_table({
+            results = file_paths,
+        }),
+        previewer = conf.file_previewer({}),
+        sorter = conf.generic_sorter({}),
+    }):find()
+end
+
+bind("n", "<leader>ht", function() toggle_telescope(harpoon:list()) end, { desc = "Open harpoon window" })
+
+bind("n", "<leader>ha", function() harpoon:list():append() end)
 bind("n", "<leader>l", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end)
 
 bind("n", "<leader>0", function() harpoon:list():select(1) end)

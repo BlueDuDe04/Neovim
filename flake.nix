@@ -60,6 +60,9 @@
     Load_nvim-web-devicon.url = "github:nvim-tree/nvim-web-devicons";
     Load_nvim-web-devicon.flake = false;
 
+    Load_promise-async.url = "github:kevinhwang91/promise-async";
+    Load_promise-async.flake = false;
+
     Load_nvim-treesitter-textobjects.url = "github:nvim-treesitter/nvim-treesitter-textobjects";
     Load_nvim-treesitter-textobjects.flake = false;
 
@@ -151,6 +154,9 @@
 
     Load_nvim-tree-lua.url = "github:nvim-tree/nvim-tree.lua";
     Load_nvim-tree-lua.flake = false;
+
+    Load_nvim-ufo.url = "github:kevinhwang91/nvim-ufo";
+    Load_nvim-ufo.flake = false;
 
     Load_lualine.url = "github:nvim-lualine/lualine.nvim";
     Load_lualine.flake = false;

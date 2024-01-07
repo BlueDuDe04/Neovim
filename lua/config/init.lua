@@ -16,6 +16,7 @@ local function init()
     require('config.refactoring')
     require('config.neorg')
     require('config.colorizer')
+    require('config.ufo')
 
     require('config.keymap')
 
@@ -60,10 +61,10 @@ local function init()
     vim.o.splitbelow = true
     vim.o.splitright = true
 
-    vim.opt.foldmethod = "expr" -- use treesitter for folding
-    vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
-    -- vim.opt.foldminlines = 10
-    vim.opt.foldlevel = 99
+    vim.o.foldcolumn = '0'
+    vim.o.foldlevel = 99
+    vim.o.foldlevelstart = 99
+    -- vim.o.foldminlines = 10
 
     vim.o.wrap = false
     vim.o.scrolloff = 15

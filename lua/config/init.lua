@@ -4,7 +4,7 @@ local function init()
 
     require('config.gitsigns')
     require('config.lualine')
-    require('config.nvim-tree')
+    -- require('config.nvim-tree')
     require('config.treesitter')
     require('config.telescope')
     require('config.lspconfig')
@@ -42,6 +42,9 @@ local function init()
             },
         },
     })
+
+    require("oil").setup()
+    vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
     require('leap').create_default_mappings()
 

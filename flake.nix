@@ -155,14 +155,17 @@
     Load_vim-sleuth.url = "github:tpope/vim-sleuth";
     Load_vim-sleuth.flake = false;
 
-    Load_nvim-tree-lua.url = "github:nvim-tree/nvim-tree.lua";
-    Load_nvim-tree-lua.flake = false;
+    Load_oil-nvim.url = "github:stevearc/oil.nvim";
+    Load_oil-nvim.flake = false;
 
     Load_leap-nvim.url = "github:ggandor/leap.nvim";
     Load_leap-nvim.flake = false;
 
     Load_nvim-ufo.url = "github:kevinhwang91/nvim-ufo";
     Load_nvim-ufo.flake = false;
+
+    # Load_nvim-tree-lua.url = "github:nvim-tree/nvim-tree.lua";
+    # Load_nvim-tree-lua.flake = false;
 
     Load_lualine.url = "github:nvim-lualine/lualine.nvim";
     Load_lualine.flake = false;

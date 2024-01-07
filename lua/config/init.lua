@@ -43,6 +43,8 @@ local function init()
         },
     })
 
+    require('leap').create_default_mappings()
+
     vim.o.nu = true
     vim.o.relativenumber = true
     vim.opt.fillchars:append { eob = " " }

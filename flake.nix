@@ -7,7 +7,7 @@
       pkgs = (import ./nix/pkgs.nix) inputs system;
     in {
       packages.default = (import ./nix) pkgs {
-       load = with pkgs.vimPlugins; [
+        load = with pkgs.vimPlugins; [
           (pkgs.vimUtils.buildVimPlugin { name = "config"; src = ./.; })
 
           nvim-treesitter.withAllGrammars

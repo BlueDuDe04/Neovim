@@ -164,6 +164,9 @@
     Load_nvim-ufo.url = "github:kevinhwang91/nvim-ufo";
     Load_nvim-ufo.flake = false;
 
+    Load_trouble-nvim.url = "github:folke/trouble.nvim";
+    Load_trouble-nvim.flake = false;
+
     # Load_nvim-tree-lua.url = "github:nvim-tree/nvim-tree.lua";
     # Load_nvim-tree-lua.flake = false;
 
